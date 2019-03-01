@@ -32,10 +32,7 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
     - [Abstract and learning objectives](#abstract-and-learning-objectives)
     - [Overview](#overview)
     - [Solution architecture](#solution-architecture)
-    - [Help references](#help-references)
-    - [Requirements](#requirements)
-    - [Exercise 1: Configure Azure Stack](#exercise-1-configure-azure-stack)
-        - [Task 3: Create Azure Stack Deployment Taxonomy for Tenets](#task-3-create-azure-stack-deployment-taxonomy-for-tenets)
+    - [LAB 1:  Create Azure Stack Deployment Taxonomy for Tenets](#lab-1-create-azure-stack-deployment-taxonomy-for-tenets)
     - [Exercise 2: Deploy the SQL Hosting Server and DB on Azure Stack](#exercise-2-deploy-the-sql-hosting-server-and-db-on-azure-stack)
         - [Task 1: Create SQL Hosting Server](#task-1-create-sql-hosting-server)
         - [Task 2: Register resource providers in the tenant subscription](#task-2-register-resource-providers-in-the-tenant-subscription)
@@ -75,7 +72,7 @@ Contoso Finance is one of the largest banks in the United States with a signific
 
 ![The Microsoft Azure Stack is made up of Mortgage Applications and Mortgage Admin databases, Offerings API, Storage Queue Mortgage Applications, Mortgage Applications, and SQL Web App DB and Customer Data.](images/Hands-onlabstep-by-step-AzureStackimages/media/image2.png)
 
-### Task 3: Create Azure Stack Deployment Taxonomy for Tenets
+### Lab 1: Create Azure Stack Deployment Taxonomy for Tenets
 
 ![Screenshot of an Azure Stack Deployment Taxonomy.](images/Hands-onlabstep-by-step-AzureStackimages/media/image69.png)
 
