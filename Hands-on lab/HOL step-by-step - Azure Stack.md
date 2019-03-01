@@ -5,14 +5,12 @@ Azure Stack
 </div>
 
 <div class="MCWHeader2">
-Hands-on lab step-by-step
+Hands-on lab step-by-step - Mark III Workshop Edition
 </div>
 
 <div class="MCWHeader3">
-December 2018
+February 2019
 </div>
-
-blah
 
 Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
 
@@ -118,58 +116,7 @@ In this exercise, you will configure the Azure Stack environment for the lab. Yo
 
 #### Sub Task 1: Download the Installer and Scripts
 
-1.  Download the installer executable from <https://aka.ms/appsvconmasinstaller> and helper scripts zip file from <https://aka.ms/appsvconmashelpers> to the **C:\\HOL\\** folder on the Azure Stack Host. The following files and folder structure appear after extracting the helper scripts zip:
-
-    ![Screenshot of Azure Stack Host File Explorer.](images/Hands-onlabstep-by-step-AzureStackimages/media/image24.png)
-
-    The following screenshot shows the installer executable:
-
-    ![In the Azure Stack Host File Explorer, a callout points to the AppService executable.](images/Hands-onlabstep-by-step-AzureStackimages/media/image25.png)
-
 #### Sub Task 2: Create App Service Scripts
-
-1.  Change to the **AppServiceHelperScripts** folder by executing the following command in an elevated PowerShell console:
-
-    ```
-    CD C:\HOL\AppServiceHelperScripts
-    ```
-
-2.  Create certificates that the Azure App service resource provider will need by running the following command:
-
-    ```
-    .\Create-AppServiceCerts.ps1
-    ```
-
-When prompted use the following values:
-
--   .pfx password use **demo\@pass123**
-
--   DomainName: **local.azurestack.external**
-
-    The script creates four certificates in the C:\\HOL\\AppServiceHelperScripts folder. The four certificates created by this script are shown in the following table:
-
-  |    |            |
-|----------|:-------------:|
-| **File name** | **Use** |
-| \_.appservice.local.azurestack.external.pfx  | App Service default SSL certificate |
-| Api.appservice.local.azurestack.external.pfx | App Service API SSL certificate |
-| ftp.appservice.local.azurestack.external.pfx | App Service publisher SSL certificate |
-| Sso.appservice.local.azurestack.external.pfx | App Service identity application certificate |
-
-  
-3.  Get the Azure Stack Root Certificate by executing the following command:
-
-    ```
-    .\Get-AzureStackRootCert.ps1
-    ```
-
-**When prompted:**
-
--   PrivilegedEndpoint: **AzS-ERCS01**
-
--   User name: **azurestack\\cloudadmin**
-
--   Password: **demo\@pass123**
 
 #### Sub Task 3: Deploy Supporting File Server
 
