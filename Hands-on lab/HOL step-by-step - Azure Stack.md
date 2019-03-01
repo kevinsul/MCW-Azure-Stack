@@ -75,32 +75,6 @@ Contoso Finance is one of the largest banks in the United States with a signific
 
 ![The Microsoft Azure Stack is made up of Mortgage Applications and Mortgage Admin databases, Offerings API, Storage Queue Mortgage Applications, Mortgage Applications, and SQL Web App DB and Customer Data.](images/Hands-onlabstep-by-step-AzureStackimages/media/image2.png)
 
-## Help references
-|    |            |
-|----------|:-------------:|
-| **Description** | **Links** |
-| Azure Stack overview  | <https://azure.microsoft.com/en-us/overview/azure-stack/> |
-| Azure Stack use cases | <https://azure.microsoft.com/en-us/overview/azure-stack/use-cases/> |
-| Azure Stack features | <https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-key-features> |
-| Azure Stack planning considerations | <https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-planning-considerations> |
-| Azure Stack documentation | <https://docs.microsoft.com/en-us/azure/azure-stack/> |
-| Azure Stack Operator documentation | <https://docs.microsoft.com/en-us/azure/azure-stack/> |
-| Azure Stack networking | <https://docs.microsoft.com/en-us/azure/azure-stack/user/azure-stack-network-overview/> |
-| Azure Stack to Azure Global VPN | <https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-connect-vpn> |
-| Register Azure Stack with your subscription | <https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-register> |
-| Deploy the Azure Stack App Service resource provider | <https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-app-service-deploy> |
-| Deploy the Azure Stack SQL resource provider | <https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-sql-resource-provider-deploy#deploy-the-resource-provider> |
-| Deploy apps to Azure and Azure Stack | <https://docs.microsoft.com/en-us/azure/azure-stack/user/azure-stack-solution-pipeline> |
-| White paper | <https://azure.microsoft.com/en-us/resources/azure-stack-an-extension-of-azure/> |
-| PowerShell for Azure Stack | <https://docs.microsoft.com/en-us/azure/azure-stack/user/azure-stack-powershell-install> |
-| Azure Stack marketplace | <https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-marketplace-azure-items> |
-
-
-## Requirements
-
--   Microsoft Azure subscription 
-
-
 ### Task 3: Create Azure Stack Deployment Taxonomy for Tenets
 
 ![Screenshot of an Azure Stack Deployment Taxonomy.](images/Hands-onlabstep-by-step-AzureStackimages/media/image69.png)
