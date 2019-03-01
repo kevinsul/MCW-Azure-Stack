@@ -5,11 +5,14 @@ Azure Stack
 </div>
 
 <div class="MCWHeader2">
+    
 Hands-on lab step-by-step - Mark III Workshop Edition
+
 </div>
 
 <div class="MCWHeader3">
 February 2019
+    
 </div>
 
 Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
@@ -32,15 +35,6 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
     - [Help references](#help-references)
     - [Requirements](#requirements)
     - [Exercise 1: Configure Azure Stack](#exercise-1-configure-azure-stack)
-        - [Task 1: Deploy the Azure Stack App Service Resource Provider](#task-1-deploy-the-azure-stack-app-service-resource-provider)
-            - [Sub Task 1: Download the Installer and Scripts](#sub-task-1-download-the-installer-and-scripts)
-            - [Sub Task 2: Create App Service Scripts](#sub-task-2-create-app-service-scripts)
-            - [Sub Task 3: Deploy Supporting File Server](#sub-task-3-deploy-supporting-file-server)
-            - [Sub Task 4: Deploying a Supporting SQL Server](#sub-task-4-deploying-a-supporting-sql-server)
-            - [Sub Task 5: Enable Contained Database Authentication](#sub-task-5-enable-contained-database-authentication)
-            - [Sub Task 6: Setup Application Identity](#sub-task-6-setup-application-identity)
-            - [Sub Task 7: Install the App Service Resource Provider](#sub-task-7-install-the-app-service-resource-provider)
-        - [Task 2: Deploy the Azure Stack SQL DB Resource Provider](#task-2-deploy-the-azure-stack-sql-db-resource-provider)
         - [Task 3: Create Azure Stack Deployment Taxonomy for Tenets](#task-3-create-azure-stack-deployment-taxonomy-for-tenets)
     - [Exercise 2: Deploy the SQL Hosting Server and DB on Azure Stack](#exercise-2-deploy-the-sql-hosting-server-and-db-on-azure-stack)
         - [Task 1: Create SQL Hosting Server](#task-1-create-sql-hosting-server)
