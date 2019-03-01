@@ -40,13 +40,13 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
         - [Task 2: Provision an Azure Storage Account](#task-2-provision-an-azure-storage-account)
         - [Task 3: Update the configuration strings](#task-3-update-the-configuration-strings)
         - [Task 4: Publish the Contoso Financial Web Application](#task-4-publish-the-contoso-financial-web-application)
-    - [Exercise 4: Deploy the customer offers Web API](#exercise-4-deploy-the-customer-offers-web-api)
+    - [LAB 3a: Deploy the customer offers Web API](#lab-3a-deploy-the-customer-offers-web-api)
         - [Task 1: Provision the offers Web API App](#task-1-provision-the-offers-web-api-app)
         - [Task 2: Deploy the Contoso.Apps.Financial.Offers project](#task-2-deploy-the-contosoappsfinancialoffers-project)
         - [Task 3: Update the Application Settings of the Web App with the API URL](#task-3-update-the-application-settings-of-the-web-app-with-the-api-url)
-    - [Exercise 5: Automating backend processes with Azure functions](#exercise-5-automating-backend-processes-with-azure-functions)
+    - [LAB 3b: Automating backend processes with Azure functions](#lab-3b-automating-backend-processes-with-azure-functions)
         - [Task 1: Create an Azure function to generate PDF receipts](#task-1-create-an-azure-function-to-generate-pdf-receipts)
-    - [Exercise 6: Deploy Contoso Finance Admin website](#exercise-6-deploy-contoso-finance-admin-website)
+    - [LAB 3c: Deploy Contoso Finance Admin website](#lab-3c-deploy-contoso-finance-admin-website)
         - [Task 1: Provision the Contoso Finance Admin Web App](#task-1-provision-the-contoso-finance-admin-web-app)
         - [Task 2: Deploy the call center admin Web App from Visual Studio](#task-2-deploy-the-call-center-admin-web-app-from-visual-studio)
     - [After the hands-on lab](#after-the-hands-on-lab)
@@ -396,7 +396,7 @@ In this exercise, you will provision a website using the Azure Stack portal. The
 
     ![The Products link is called out on the Contoso Finance webpage menu.](images/Hands-onlabstep-by-step-AzureStackimages/media/image128.png)
 
-## Exercise 4: Deploy the customer offers Web API
+## LAB 3a: Deploy the customer offers Web API
 
 Duration: 15-30 minutes
 
@@ -490,7 +490,7 @@ In this exercise, you will provision an Azure API App using the Azure Stack port
 
     ![Screenshot of the Contoso Finance webpage.](images/Hands-onlabstep-by-step-AzureStackimages/media/image138.png)
 
-## Exercise 5: Automating backend processes with Azure functions 
+## LAB 3b: Automating backend processes with Azure functions 
 
 Duration: 15-30 minutes
 
@@ -586,7 +586,7 @@ Contoso wants to automate the process of generating applications in PDF format a
 
     ![The Save button is selected in the Function Apps blade.](images/Hands-onlabstep-by-step-AzureStackimages/media/image150.png)
 
-## Exercise 6: Deploy Contoso Finance Admin website
+## LAB 3c: Deploy Contoso Finance Admin website
 
 Duration: 15-30 minutes
 
