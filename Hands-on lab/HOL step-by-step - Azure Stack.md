@@ -33,7 +33,6 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
     - [Overview](#overview)
     - [Solution architecture](#solution-architecture)
     - [LAB 1:  Create Azure Stack Deployment Taxonomy for Tenets](#lab-1-create-azure-stack-deployment-taxonomy-for-tenets)
-    
     - [LAB 2a: Register resource providers in the tenant subscription](#lab-2a-register-resource-providers-in-the-tenant-subscription)
     - [LAB 2b: Deploy SQL DB on Azure Stack](#lab-2b-deploy-sql-db-on-azure-stack)
     - [LAB 2c: Deploy Contoso Financial Web Application](#lab-2c-deploy-contoso-financial-web-application)
