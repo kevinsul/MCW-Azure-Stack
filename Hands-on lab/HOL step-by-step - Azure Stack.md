@@ -33,11 +33,9 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
     - [Overview](#overview)
     - [Solution architecture](#solution-architecture)
     - [LAB 1:  Create Azure Stack Deployment Taxonomy for Tenets](#lab-1-create-azure-stack-deployment-taxonomy-for-tenets)
-    - [Exercise 2: Deploy the SQL Hosting Server and DB on Azure Stack](#exercise-2-deploy-the-sql-hosting-server-and-db-on-azure-stack)
-        - [Task 1: Create SQL Hosting Server](#task-1-create-sql-hosting-server)
-        - [Task 2: Register resource providers in the tenant subscription](#task-2-register-resource-providers-in-the-tenant-subscription)
-        - [Task 3: Deploy SQL DB on Azure Stack](#task-3-deploy-sql-db-on-azure-stack)
-    - [Exercise 3: Deploy Contoso Financial Web Application](#exercise-3-deploy-contoso-financial-web-application)
+    - [LAB 2a: Register resource providers in the tenant subscription](#lab-2a-register-resource-providers-in-the-tenant-subscription)
+    - [LAB 2b: Deploy SQL DB on Azure Stack](#lab-2b-deploy-sql-db-on-azure-stack)
+    - [LAB 2c: Deploy Contoso Financial Web Application](#lab-2c-deploy-contoso-financial-web-application)
         - [Task 1: Create the Web App](#task-1-create-the-web-app)
         - [Task 2: Provision an Azure Storage Account](#task-2-provision-an-azure-storage-account)
         - [Task 3: Update the configuration strings](#task-3-update-the-configuration-strings)
@@ -203,61 +201,7 @@ click **+All Resources - Subscription - + Add**
 
 26. The Production Subscription will load, and you can click to review.
 
-## Exercise 2: Deploy the SQL Hosting Server and DB on Azure Stack
-
-Duration: 60 minutes
-
-The first step to getting the website up and running is to configure the SQL Database on Azure Stack. This requires you to setup a SQL VM, configure a SQL Hosting Server and finally deploying the SQL database.
-
-### Task 1: Create SQL Hosting Server
-
-1.  In the Azure Stack Admin portal, click **+New**, **Data + Storage** and then **SQL HostingServer**.
-
-    ![Options in the Azure Stack Admin portal, New blade, and Data and Storage blade are selected according to the previously defined selections.](images/Hands-onlabstep-by-step-AzureStackimages/media/image93.png)
-
-2.  Complete the **Add a SQL Hosting Server** blade using the following inputs:
-
-    -   SQL Server Name: **IP Address of the SQL Server VM created for the App Service Account**.
-
-    -   User Name: **sqlserveradmin**
-
-    -   Password: **demo\@pass123**
-
-    -   Size of Hosting Server in GB: **100**
-
-    -   Resource group: **ContosoFinance**
-
-    -   Location: **Local**
-
-        ![In the Add a SQL Hosting Server blade, fields are set to the previously defined settings.](images/Hands-onlabstep-by-step-AzureStackimages/media/image94.png)
-
-3.  Next, click **SKUs**.
-
-    ![SKUs option screenshot](images/Hands-onlabstep-by-step-AzureStackimages/media/image95.png)
-
-4.  Click **Create new SKU**.
-
-    ![The Create new SKU button is selected.](images/Hands-onlabstep-by-step-AzureStackimages/media/image96.png)
-
-5.  Update the **Create SKU** blade with the following input and click **OK**:
-
-    -   Name: **ContosoFinanceSQLPROD**
-
-    -   Family: **SQLServer2017**
-
-    -   Tier: **Standalone**
-
-    -   Edition: **Enterprise** 
-    
-    -- Tip in a production environment the edition should reflect the actual capabilities.
-
-       ![Fields in the Create SKU blade are set to the previously defined settings.](images/Hands-onlabstep-by-step-AzureStackimages/media/image97.png)
-
-6.  Review the Add a **SQL Hosting Server** Blade and click **Create**.
-
-    > **Note:** SKUs **can take up to an hour** to be visible in the portal. Users cannot create a database until the SKU is fully created.
-
-### Task 2: Register resource providers in the tenant subscription
+### LAB 2a: Register resource providers in the tenant subscription
 
 1.  Launch the Azure Stack tenant portal and click All services -\> search for Subscriptions -\> click the subscription and then click Resource Providers.
 
@@ -265,7 +209,7 @@ The first step to getting the website up and running is to configure the SQL Dat
 
     ![In the Azure Stack tenant portal, a list of providers display with a Status column, and Re-register links.](images/Hands-onlabstep-by-step-AzureStackimages/media/image98.png)
 
-### Task 3: Deploy SQL DB on Azure Stack 
+### LAB 2b: Deploy SQL DB on Azure Stack 
 
 1.  In the Azure Stack Tenant portal, click **+New**, **Data + Storage** followed by **SQL Database**.
 
@@ -325,7 +269,7 @@ The first step to getting the website up and running is to configure the SQL Dat
     Data Source=X.X.X.X,1433;Initial Catalog=ContosoFinanceWebDB;User ID=ContosoFinanceWebDB;Password=demo\@pass123
     ```
 
-## Exercise 3: Deploy Contoso Financial Web Application
+## LAB 2c: Deploy Contoso Financial Web Application
 
 Duration: 15-30 minutes
 
